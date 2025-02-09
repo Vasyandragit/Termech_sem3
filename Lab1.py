@@ -69,4 +69,6 @@ def kadr(i):
     return [Point, V_line, V_arr, W_line, W_arr, Curve_line]
 
 kino = FuncAnimation(fig, kadr, interval = t[1] - t[0], frames=len(t))
-plt.show()
+
+if __name__ == "__main__":
+    plt.show()
